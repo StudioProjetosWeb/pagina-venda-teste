@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f0;
+}
+
+.header {
+    background-color: #ff7e7e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.pricing-card h3 {
+    color: #ff6161;
+}
+
+.price {
+    font-size: 20px;
+    color: #ff4a4a;
+}
+
+button {
+    background-color: #ff4a4a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6161;
+}
